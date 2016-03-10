@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>黄文龙的博客</title>
+  <subtitle>非学无以广才，非志无以成学</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://huangwenlong.github.io/"/>
+  <updated>2016-03-02T07:00:51.000Z</updated>
+  <id>https://huangwenlong.github.io/</id>
+  
+  <author>
+    <name>黄文龙</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>代码简写规范</title>
+    <link href="https://huangwenlong.github.io/2016/03/01/%E4%BB%A3%E7%A0%81%E7%AE%80%E5%86%99%E8%A7%84%E8%8C%83/"/>
+    <id>https://huangwenlong.github.io/2016/03/01/代码简写规范/</id>
+    <published>2016-03-01T03:01:34.000Z</published>
+    <updated>2016-03-02T07:00:51.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot; title=&quot;数组&quot;&gt;&lt;/a&gt;数组&lt;/h2&gt;&lt;h3 id=&quot;创建数组&quot;&gt;&lt;a href=&quot;#创建数组&quot; class=&quot;headerlink&quot; title=&quot;创建数组&quot;&gt;&lt;/a&gt;创建数组&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;NSArray *arr = @[@&amp;quot;第一个元素&amp;quot;,@&amp;quot;第二个元素”,...];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;获取index对应数组元素&quot;&gt;&lt;a href=&quot;#获取index对应数组元素&quot; class=&quot;headerlink&quot; title=&quot;获取index对应数组元素&quot;&gt;&lt;/a&gt;获取index对应数组元素&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;array[index];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;字典&quot;&gt;&lt;a href=&quot;#字典&quot; class=&quot;headerlink&quot; title=&quot;字典&quot;&gt;&lt;/a&gt;字典&lt;/h2&gt;&lt;h3 id=&quot;创建字典&quot;&gt;&lt;a href=&quot;#创建字典&quot; class=&quot;headerlink&quot; title=&quot;创建字典&quot;&gt;&lt;/a&gt;创建字典&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;NSDictionary *dictionary = @&amp;#123;@&amp;quot;key&amp;quot;:@“value”,...&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;根据key获取value&quot;&gt;&lt;a href=&quot;#根据key获取value&quot; class=&quot;headerlink&quot; title=&quot;根据key获取value&quot;&gt;&lt;/a&gt;根据key获取value&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;dictionary[@&amp;quot;key”];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;NSNumber&quot;&gt;&lt;a href=&quot;#NSNumber&quot; class=&quot;headerlink&quot; title=&quot;NSNumber&quot;&gt;&lt;/a&gt;NSNumber&lt;/h2&gt;&lt;h3 id=&quot;创建NSNumber&quot;&gt;&lt;a href=&quot;#创建NSNumber&quot; class=&quot;headerlink&quot; title=&quot;创建NSNumber&quot;&gt;&lt;/a&gt;创建NSNumber&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;NSNumber *number = @10;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;blockquote&gt;
+&lt;p&gt;搞了一天，终于写了点东西了。继续努力！&lt;br&gt;又整理了一遍，强化编辑能力吧！&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;数组&quot;&gt;&lt;a href=&quot;#数组&quot; class=&quot;headerlink&quot; title=&quot;数组&quot;&gt;&lt;/a&gt;数组&lt;/h2&gt;&lt;h3 id=&quot;创建数组&quot;&gt;&lt;a href=&quot;#创建数组&quot; class=&quot;headerlink&quot; title=&quot;创建数组&quot;&gt;&lt;/a&gt;创建数组&lt;/h
+    
+    </summary>
+    
+      <category term="iOS" scheme="https://huangwenlong.github.io/categories/iOS/"/>
+    
+    
+      <category term="规范" scheme="https://huangwenlong.github.io/tags/%E8%A7%84%E8%8C%83/"/>
+    
+      <category term="function" scheme="https://huangwenlong.github.io/tags/function/"/>
+    
+  </entry>
+  
+</feed>
